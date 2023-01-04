@@ -4,38 +4,6 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-@media (max-width: 576px) {
-  .homepage-images {
-    display: none;
-  }
-
-  .page-title {
-    font-size: 48px;
-  }
-
-  .page-subheadings {
-    text-align: center;
-  }
-
-  .paragraph {
-    text-align: center;
-  }
-
-  .navigation-links {
-    justify-content: center;
-  }
-}
-
-@media (max-width: 768px) {
-  .page-subheadings {
-    font-size: 30px;
-  }
-
-  .paragraph {
-    font-size: 16px;
-  }
-}
-
 body {
   margin-bottom: 60px;
   width: auto;
@@ -141,4 +109,36 @@ img {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 576px) {
+  .homepage-images {
+    display: none;
+  }
+
+  .page-title {
+    font-size: 48px;
+  }
+
+  .page-subheadings {
+    text-align: center;
+  }
+
+  .paragraph {
+    text-align: center;
+  }
+
+  .navigation-links {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .page-subheadings {
+    font-size: 30px;
+  }
+
+  .paragraph {
+    font-size: 16px;
+  }
 }
